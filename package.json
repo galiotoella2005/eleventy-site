@@ -22,5 +22,8 @@
   "homepage": "https://github.com/galiotoella2005/eleventy-site#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
