@@ -1,15 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: pink;
+    background-color: lightblue;
     color: #333;
     margin: 40px;
 }
 
 h1 {
-    color: darkgreen;
+    color: black;
 }
 
 p {
     font-size: 16px;
     line-height: 1.6;
+}
+
+img{
+    width: 200px;
+  height: 200px;
+  object-fit: fill;
 }
