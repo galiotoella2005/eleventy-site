@@ -19,7 +19,12 @@
 </head>
 <body>
 My 11ty Website!
+{% include "layouts/top.html" %}
+<h1>{{ title }} </h1>
+<p>{{ information }}</p>
 {{ content | safe }}
 </body>
+
+
 </html>
 
