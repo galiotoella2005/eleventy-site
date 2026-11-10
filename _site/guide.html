@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" 
+           content="width=device-width, 
+           user-scalable=no, 
+           initial-scale=1.0, 
+           maximum-scale=1.0, 
+           minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" 
+           content="ie=edge">
+     <title>Base Nunjucks</title>
+     <link rel="stylesheet" href="CSS/style.css">
+     <script type="module" src="js/is-land.js"></script>
+
+</head>
+<body>
+My 11ty Website!
+<nav>
+    <a href="index.html">Home</a>
+    <a href="guide.html">Tech Issue Guide</a>
+</nav>
+<h1>My Tech Issue Guide </h1>
+<p></p>
+
+
+<main>
+  <h1>My Tech Issue Guide</h1>
+
+  <nav aria-label="Guide sections">
+    <ul>
+    
+      <li><a href="#why-your-privacy-matters-in-todays-tech-world">Why your privacy matters in todays tech world</a></li>
+    
+      <li><a href="#how-smart-watches-track-your-data">How smart watches track your data</a></li>
+    
+      <li><a href="#steps-you-can-take-to-protect-your-data">Steps you can take to protect your data</a></li>
+    
+      <li><a href="#how-are-vr-headsets-tracking-your-data">How are VR headsets tracking your data?</a></li>
+    
+      <li><a href="#how-to-change-your-headset-privacy-settings">How to change your headset privacy settings</a></li>
+    
+      <li><a href="#three-d">Three-D</a></li>
+    
+    </ul>
+  </nav>
+
+  
+  <section id="why-your-privacy-matters-in-todays-tech-world">
+    <h2>Why your privacy matters in todays tech world</h2>
+    
+    <figure>
+      <img src="images/order1.jpg" alt="Image of a girl wearing a VR headset, a laptop, and a wrist with a smartwach on it">
+      
+      <figcaption>Photo by Kinetics, via Google</figcaption>
+      
+    </figure>
+    
+    <p>Do you own a VR headset or smartwatch? A lot of people do in todays tech world, but have you ever stopped to think about the data that these devices are tracking? VR/AR headsets and smart watch collect physcial, environmental, and biometric data without the user ever knowing.
+Check out this list to see if your device is on it! <a href="https://medium.com/@hassanali001/wearable-tech-that-doesnt-harvest-your-soul-a-ranked-list-of-privacy-conscious-devices-4b18072ed68a
+">Click me!</a></p>
+
+  </section>
+  
+  <section id="how-smart-watches-track-your-data">
+    <h2>How smart watches track your data</h2>
+    
+    <h3>Biometric data</h3>
+<p>Smartwatches track you data through sensors to track biometric data</p>
+<h3>What do they do with this data?</h3>
+<p>Health data monetization, through subscription models, data partnership, and eco system lock-in.
+<a href="https://medium.com/no-time/wearable-tech-how-companies-turn-your-health-data-into-money-8b33d29fb2c8 ">Read me!</a></p>
+<figure>
+<img src="images/smartwatch.jpg" alt="A wrist with a smartwatch">
+<figcaption>Photo by GettyImages, <a href="https://mcpress.mayoclinic.org/uploads/2024/10/LearnWearableDevicexGettyImages-1130693402-1120x640.jpg">Source</a></figcaption>
+</figure>
+
+  </section>
+  
+  <section id="steps-you-can-take-to-protect-your-data">
+    <h2>Steps you can take to protect your data</h2>
+    
+    <h3>Settings</h3>
+<p>Change privacy settings and read privacy policies
+<a href="https://www.bitdefender.com/en-us/blog/hotforsecurity/five-steps-to-protect-your-privacy-on-wearable-devices ">Read more!</a></p>
+<h3>Look into other smartwatch devices that don't steal your data</h3>
+<p>Is your smartwatch on this list?
+<a href="https://medium.com/@hassanali001/wearable-tech-that-doesnt-harvest-your-soul-a-ranked-list-of-privacy-conscious-devices-4b18072ed68a ">Check me out</a></p>
+<figure>
+<img src="images/privacypolicy.png" alt="A paper with the text saying privacy policy.">
+<figcaption>Photo by CookieYes, <a href="https://assets.cookieyes.com/What_is_a_Privacy_Policy_The_Ultimate_Guide_f242da617f.png">Source</a></figcaption>
+</figure>
+  </section>
+  
+  <section id="how-are-vr-headsets-tracking-your-data">
+    <h2>How are VR headsets tracking your data?</h2>
+    
+    <h3>What kind of data is being collected?</h3>
+<p>Biometric, environmental, and behavioral data is being collected.
+<a href="https://xpertvr.ca/vr-data-collection/">Article</a></p>
+<figure>
+<img src="images/vr.png" alt="Man wearing VR headset">
+<figcaption>Photo by PertVR, <a href="https://xpertvr.ca/wp-content/uploads/image2.png">Source</a></figcaption>
+</figure>
+  </section>
+  
+  <section id="how-to-change-your-headset-privacy-settings">
+    <h2>How to change your headset privacy settings</h2>
+    
+    <h3>For the Quest 2 Headsets</h3>
+<p>Locate privacy settings
+<a href="https://roadtovr.com/oculus-quest-2-privacy-facebook-data-collection-settings/">Follow this guide</a></p>
+<figure>
+<img src="images/quest2.jpeg" alt="Picture of Quest 2 headset and hand controls">
+<figcaption>Photo by Amazon.com, <a href="https://m.media-amazon.com/images/I/51h6QZYt-nL._AC_UF894,1000_QL80_.jpg">Source</a></figcaption>
+</figure>
+<p>//first island added
+<is-land on:visible></p>
+  <div id="counter" v-scope="{ count: 0 }">
+    <p>Count: <span v-text="count"></span></p>
+    <button @click="count++">Click me if you read all the way to here!</button>
+  </div>
+  <template data-island>
+    <script type="module">
+      import { createApp } from './js/petite-vue.js'
+      createApp().mount('#counter')
+    </script>
+  </template>
+</is-land>
+  </section>
+  
+  <section id="three-d">
+    <h2>Three-D</h2>
+    
+    <h1>My Three.js Scene</h1>
+<p>Explore my interactive 3D flamingo model!</p>
+<is-land on:visible>
+  <template data-island>
+    <div id="scene-container"></div>
+    <script type="module" src="./js/threeScene.js"></script>
+  </template>
+</is-land>
+  </section>
+  
+</main>
+</body>
+
+
+</html>
+
