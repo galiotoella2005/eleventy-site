@@ -1,4 +1,4 @@
-const esbuild = require("esbuild");
+const esbuild = require("esbuild"); 
 module.exports = function (eleventyConfig){
 // Bundle Three.js before every 11ty build
 eleventyConfig.on("eleventy.before", async () => {
