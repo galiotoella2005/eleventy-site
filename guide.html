@@ -12,10 +12,8 @@
            content="ie=edge">
      <title>Base Nunjucks</title>
      <link rel="stylesheet" href="CSS/style.css">
-<nav>
-    <a href="/">Home</a>
-    <a href="/guide.html">Tech Issue Guide</a>
-</nav>
+     <script type="module" src="js/is-land.js"></script>
+
 </head>
 <body>
 My 11ty Website!
@@ -42,6 +40,8 @@ My 11ty Website!
       <li><a href="#how-are-vr-headsets-tracking-your-data">How are VR headsets tracking your data?</a></li>
     
       <li><a href="#how-to-change-your-headset-privacy-settings">How to change your headset privacy settings</a></li>
+    
+      <li><a href="#three-d">Three-D</a></li>
     
     </ul>
   </nav>
@@ -115,6 +115,32 @@ Check out this list to see if your device is on it! <a href="https://medium.com/
 <img src="images/quest2.jpeg" alt="Picture of Quest 2 headset and hand controls">
 <figcaption>Photo by Amazon.com, <a href="https://m.media-amazon.com/images/I/51h6QZYt-nL._AC_UF894,1000_QL80_.jpg">Source</a></figcaption>
 </figure>
+<p>//first island added
+<is-land on:visible></p>
+  <div id="counter" v-scope="{ count: 0 }">
+    <p>Count: <span v-text="count"></span></p>
+    <button @click="count++">Click me if you read all the way to here!</button>
+  </div>
+  <template data-island>
+    <script type="module">
+      import { createApp } from './js/petite-vue.js'
+      createApp().mount('#counter')
+    </script>
+  </template>
+</is-land>
+  </section>
+  
+  <section id="three-d">
+    <h2>Three-D</h2>
+    
+    <h1>My Three.js Scene</h1>
+<p>Explore my interactive 3D flamingo model!</p>
+<is-land on:visible>
+  <template data-island>
+    <div id="scene-container"></div>
+    <script type="module" src="./js/threeScene.js"></script>
+  </template>
+</is-land>
   </section>
   
 </main>
