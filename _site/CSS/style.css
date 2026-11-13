@@ -1,12 +1,13 @@
+/* formating */
 body {
     font-family: Arial, sans-serif;
-    background-color: lightblue;
-    color: #333;
+    background-color: rgb(0, 0, 0);
+    color: white;
     margin: 40px;
 }
 
 h1 {
-    color: black;
+    color: white;
 }
 
 p {
@@ -15,14 +16,15 @@ p {
 }
 
 img{
-    width: 200px;
+  width:  250px;
   height: 200px;
   object-fit: fill;
 }
 
+/* three-js flamingo container */
 #scene-container {
-    width: 100%;
-    height: 500px;
+    width:  100%;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -30,4 +32,69 @@ img{
     display: block;
     width: 100%;
     height: 100%;
+}
+
+/* button clicker style */
+.filters button.on {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.topic img {
+  max-width: 14rem;
+  margin: 0.5rem;
+}
+
+.gallery{
+  width:  250px;
+  height: 200px;
+  object-fit: fill;
+}
+
+/* Style the navbar */
+.site-header {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 0 0 14px; 
+    justify-content: center; }
+
+.site-header a {
+    color: #ebe8ec;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #A627F5;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.site-header a:hover { 
+border-color: rgba(255,255,255,.26); }
+
+/* border for tech page table of contents */
+ul{
+    list-style-type: none;
+    border: 1px solid #A627F5;
+    border-radius: 10px;   
+    width: 300px;
+    height: 170px;
+    padding: 6px;
+}
+
+/* tech page design and hover */
+.site a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site a:hover {
+    color: #6a5acd;
+}
+
+/* tech page sticky nav */
+.section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
 }

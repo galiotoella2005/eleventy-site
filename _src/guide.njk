@@ -6,12 +6,11 @@ permalink: guide.html
 {% set sections = collections.section | sort(false, false, "data.order") %}
 
 <main>
-  <h1>{{ title }}</h1>
 
-  <nav aria-label="Guide sections">
+  <nav class ="section-nav" aria-label="Guide sections">
     <ul>
     {% for section in sections %}
-      <li><a href="#{{ section.data.title | slugify }}">{{ section.data.title }}</a></li>
+      <li class="site"><a href="#{{ section.data.title | slugify }}">{{ section.data.title }}</a></li>
     {% endfor %}
     </ul>
   </nav>
