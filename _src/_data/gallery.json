@@ -1,0 +1,43 @@
+{
+  "photos": [
+    {
+      "file": "vrheadset_girl.jpg",
+      "caption": "vrheadset girl",
+      "alt": "photo of a girl wearing a vr headset"
+    },
+    {
+      "file": "vrheadset_pink.jpeg",
+      "caption": "vrheadset pink",
+      "alt": "image of the inside of a vr headset"
+    },
+    {
+      "file": "vr-smartwatch.jpeg",
+      "caption": "vr-smartwatch",
+      "alt": "a photo of a wrist with a watch recieving a call and in the background theres a group of people gathered around someone wearing a vr headset"
+    }
+  ],
+  "sketches": [
+    {
+      "file": "sketchofvr.jpeg",
+      "caption": "sketchofvr",
+      "alt": "sketch of a white vr headset"
+    },
+    {
+      "file": "sketchvrman.jpeg",
+      "caption": "sketchvrman",
+      "alt": "black lined sketch of a man wearing a vr headset"
+    }
+  ],
+  "type": [
+    {
+      "file": "smartwatch.jpeg",
+      "caption": "smartwatch",
+      "alt": "4 hands with watches on each wrist"
+    },
+    {
+      "file": "smartwatch2.jpeg",
+      "caption": "smartwatch2",
+      "alt": "photo of a Garmin watch with a colorful background"
+    }
+  ]
+}
