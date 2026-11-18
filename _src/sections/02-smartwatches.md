@@ -10,7 +10,7 @@ Smartwatches track you data through sensors to track biometric data
 Health data monetization, through subscription models, data partnership, and eco system lock-in.
 <a href="https://medium.com/no-time/wearable-tech-how-companies-turn-your-health-data-into-money-8b33d29fb2c8 ">Read me!</a>
 
-
+-Essential reading: If you are interested in learing how AI ties into this subject you can check out this article on LLM's and Smartwatches <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11314694/">Check it out!</a>
 
 <figure>
 <img src="images/smartwatch.jpg" alt="A wrist with a smartwatch">

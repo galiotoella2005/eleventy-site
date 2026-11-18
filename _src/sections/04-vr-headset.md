@@ -5,7 +5,9 @@ order: 4
 
 ### What kind of data is being collected?
 Biometric, environmental, and behavioral data is being collected.
-<a href="https://xpertvr.ca/vr-data-collection/">Article</a>
+<a href="https://aquent.com/blog/how-ar-vr-data-collection-can-lead-to-better-decisions">Article</a>
+
+-Essential reading: If you would like to read more into the benefits of data collection you can check out this article here, <a href="https://xpertvr.ca/vr-data-collection/">Article</a>
 
 <figure>
 <img src="images/vr.png" alt="Man wearing VR headset">

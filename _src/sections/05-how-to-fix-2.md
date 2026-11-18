@@ -3,9 +3,11 @@ title: How to change your headset privacy settings
 order: 5
 ---
 
-### For the Quest 2 Headsets
-Locate privacy settings
-<a href="https://roadtovr.com/oculus-quest-2-privacy-facebook-data-collection-settings/">Follow this guide</a>
+### VR Headset Setting
+Locate and change privacy settings
+
+###
+-Essential reading: Do you have a Quest 2 headset? This reading does an excelent job at detailing specific steps in protecting your data, <a href="https://roadtovr.com/oculus-quest-2-privacy-facebook-data-collection-settings/">Follow this guide</a>
 
 <figure>
 <img src="images/quest2.jpeg" alt="Picture of Quest 2 headset and hand controls">
@@ -26,3 +28,6 @@ Locate privacy settings
   </template>
 
 </is-land>
+
+### What is this?
+-Essential reading: Do you want to create something like this or learn about is-lands and petite vue? Follow Dr. B's tutorial! <a href="https://github.com/newtfire/11ty-model/tree/main?tab=readme-ov-file">Follow this guide</a>
