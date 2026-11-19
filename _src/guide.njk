@@ -16,8 +16,8 @@ permalink: guide.html
   </nav>
 
   {% for section in sections %}
-  <section id="{{ section.data.title | slugify }}">
-    <h2>{{ section.data.title }}</h2>
+  <section class="main" id="{{ section.data.title | slugify }}">
+    <h2 class="title">{{ section.data.title }}</h2>
     {% if section.data.image %}
     <figure>
       <img src="{{ section.data.image }}" alt="{{ section.data.image_alt }}">

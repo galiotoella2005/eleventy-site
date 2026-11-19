@@ -13,6 +13,8 @@ Locate and change privacy settings
 <img src="images/quest2.jpeg" alt="Picture of Quest 2 headset and hand controls">
 <figcaption>Photo by Amazon.com, <a href="https://m.media-amazon.com/images/I/51h6QZYt-nL._AC_UF894,1000_QL80_.jpg">Source</a></figcaption>
 </figure>
+
+
 <is-land on:visible>
 
   <div id="counter" v-scope="{ count: 0 }">

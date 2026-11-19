@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Three-D
 layout: base.njk
 permalink: three-d.html
@@ -12,4 +12,4 @@ permalink: three-d.html
     <div id="scene-container"></div>
     <script type="module" src="./js/threeScene.js"></script>
   </template>
-</is-land>
+</is-land> -->

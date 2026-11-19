@@ -21,8 +21,6 @@
 <nav class="site-header">
     <a href="index.html">Home</a>
     <a href="guide.html">Nav1</a>
-    <a href="index.html">Nav2</a>
-    <a href="index.html">Nav3</a>
 </nav>
 </header>
 <h1>My Tech Issue Guide </h1>
@@ -44,7 +42,7 @@
     
       <li class="site"><a href="#how-to-change-your-headset-privacy-settings">How to change your headset privacy settings</a></li>
     
-      <li class="site"><a href="#three-d">Three-D</a></li>
+      <li class="site"><a href="#undefined"></a></li>
     
       <li class="site"><a href="#filterable-gallery">Filterable Gallery</a></li>
     
@@ -52,8 +50,8 @@
   </nav>
 
   
-  <section id="why-your-privacy-matters-in-todays-tech-world">
-    <h2>Why your privacy matters in todays tech world</h2>
+  <section class="main" id="why-your-privacy-matters-in-todays-tech-world">
+    <h2 class="title">Why your privacy matters in todays tech world</h2>
     
     <figure>
       <img src="images/order1.jpg" alt="Image of a girl wearing a VR headset, a laptop, and a wrist with a smartwach on it">
@@ -68,8 +66,8 @@
 
   </section>
   
-  <section id="how-smart-watches-track-your-data">
-    <h2>How smart watches track your data</h2>
+  <section class="main" id="how-smart-watches-track-your-data">
+    <h2 class="title">How smart watches track your data</h2>
     
     <h3>Biometric data</h3>
 <p>Smartwatches track you data through sensors to track biometric data</p>
@@ -84,8 +82,8 @@
 
   </section>
   
-  <section id="steps-you-can-take-to-protect-your-data">
-    <h2>Steps you can take to protect your data</h2>
+  <section class="main" id="steps-you-can-take-to-protect-your-data">
+    <h2 class="title">Steps you can take to protect your data</h2>
     
     <h3>Settings</h3>
 <p>Change privacy settings and read privacy policies
@@ -95,8 +93,8 @@
 
   </section>
   
-  <section id="how-are-vr-headsets-tracking-your-data">
-    <h2>How are VR headsets tracking your data?</h2>
+  <section class="main" id="how-are-vr-headsets-tracking-your-data">
+    <h2 class="title">How are VR headsets tracking your data?</h2>
     
     <h3>What kind of data is being collected?</h3>
 <p>Biometric, environmental, and behavioral data is being collected.
@@ -108,8 +106,8 @@
 </figure>
   </section>
   
-  <section id="how-to-change-your-headset-privacy-settings">
-    <h2>How to change your headset privacy settings</h2>
+  <section class="main" id="how-to-change-your-headset-privacy-settings">
+    <h2 class="title">How to change your headset privacy settings</h2>
     
     <h3>VR Headset Setting</h3>
 <p>Locate and change privacy settings</p>
@@ -136,21 +134,28 @@
 
   </section>
   
-  <section id="three-d">
-    <h2>Three-D</h2>
+  <section class="main" id="undefined">
+    <h2 class="title"></h2>
     
-    <h1>My Three.js Scene</h1>
+    <!-- ---
+title: Three-D
+layout: base.njk
+permalink: three-d.html
+---
+<h1>My Three.js Scene</h1>
+
 <p>Explore my interactive 3D flamingo model!</p>
+
 <is-land on:visible>
   <template data-island>
     <div id="scene-container"></div>
     <script type="module" src="./js/threeScene.js"></script>
   </template>
-</is-land>
+</is-land> -->
   </section>
   
-  <section id="filterable-gallery">
-    <h2>Filterable Gallery</h2>
+  <section class="main" id="filterable-gallery">
+    <h2 class="title">Filterable Gallery</h2>
     
     <is-land on:visible>
 <div id="gallery" v-scope="{ active: 'all' }">

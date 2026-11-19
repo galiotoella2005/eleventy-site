@@ -8,11 +8,15 @@ body {
 
 h1 {
     color: white;
+    font-size: 20px;
+    text-decoration: underline #3A30DA 2px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+    margin-right: 50px;
+    
 }
 
 img{
@@ -56,7 +60,9 @@ img{
     flex-wrap: wrap; 
     gap: 10px; 
     padding: 0 0 14px; 
-    justify-content: center; }
+    justify-content: center;
+    
+}
 
 .site-header a {
     color: #ebe8ec;
@@ -65,6 +71,7 @@ img{
     border: 1px solid #A627F5;
     border-radius: 10px;
     font-size: 14px;
+    
 }
 
 .site-header a:hover { 
@@ -75,9 +82,9 @@ ul{
     list-style-type: none;
     border: 1px solid #A627F5;
     border-radius: 10px;   
-    width: 300px;
-    height: 170px;
-    padding: 6px;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
 }
 
 /* tech page design and hover */
@@ -87,17 +94,22 @@ ul{
     transition: color 0.3s ease;
 }
 
+.site {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .site a:hover {
     color: #6a5acd;
 }
 
 /* tech page sticky nav */
-/* .section-nav { */
-    /* position: sticky;
+.section-nav {
+    position: sticky;
     top: 0;
     z-index: 1000;
     padding: 10px;
-} */
+}
 
 .topic .row {
   display: flex;
@@ -112,3 +124,13 @@ ul{
   width: 100%;
   margin: 0;
 }
+
+.main {
+    padding-left: 350px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-decoration: underline #3A30DA 2px;
+} 
